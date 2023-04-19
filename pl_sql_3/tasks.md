@@ -1,4 +1,4 @@
-# Podminky 1
+# (1) Podminky 1
 1. Vytvořte proceduru PAddStudentToCourse s parametry p_student_login, p_course_code a p_year. Procedura zapíše studenta s daným loginem k danému kurzu v daném roce. K zápisu však dojde pouze pokud není naplněna kapacita kurzu (atribut
 Course.capacity). V opačném případě procedura vypíše: ‘Kurz je již plně obsazen’.
 
@@ -12,7 +12,7 @@ v případě plné obsazenosti kurzu k zápisu nedošlo. Tj. deklarujte
 výjimku EXCEPTION, kterou na příslušném místě vyvolejte příkazem
 RAISE.
 
-# Podmínky 2
+# (1) Podmínky 2
 4. Vytvořte funkci FAddStudent4 fungující obdobně jako funkce
 FAddStudent3 (viz předchozí cvičení). Kromě návratových hodnot
 ’ok’ a ’error’ bude mít funkce navíc návratovou hodnotu ’full’.
@@ -27,7 +27,7 @@ Poté proběhne samotné smazání učitele. Pokud žádný jiný učitel
 neexistuje, ke smazání učitele nedojde. Proceduru napište jako
 transakci.
 
-# Cykly
+# (2) Cykly
 
 1. Vytvořte pomocnou funkci FLoginExists s parametrem p_login, která
 vrátí true právě když student s daním loginem existuje.
@@ -43,7 +43,7 @@ s nejnižším sekvenčním číslem.
 loginu použila FGetNextLogin. Ověřte generování loginu opakovaným
 voláním FAddStudent4 se stejným příjmením.
 
-# Kurzory
+# (3) Kurzory
 
 1. Vytvořte anonymní proceduru, která za pomocí kurzoru vypíše jména a
 příjmení všech studentů. Vyzkoušejte si jak syntaxi explicitního kurzoru
