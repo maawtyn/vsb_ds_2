@@ -2,5 +2,5 @@
 
 
 v každé PL/SQL sekci:
-- tasks.md - zadání
+- readme.md - zadání
 - solution.slq - řešení
