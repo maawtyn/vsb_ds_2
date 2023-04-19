@@ -10,3 +10,5 @@ toc:
 - PL/SQL 2 - procedury, triggery
 - PL/SQL 3 - řídící konstrukce a kurzory
 - PL/SQL 4 - statické a dynamické PL/SQL
+
+[cheat sheet](https://github.com/ptukovar/plsqlcheatsheet)
